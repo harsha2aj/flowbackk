@@ -3,7 +3,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import os
-BOT_TOKEN = os.environ.get("8537791968:AAEBZ84GuYQ4x0r28ASb jQkbVOB7hFJBHrQ")
+BOT_TOKEN = os.environ.get("8537791968:AAEBZ84GuYQ4x0r28ASbjQkbVOB7hFJBHrQ")
 
 AFFILIATE_TAG = os.environ.get("AFFILIATE_TAG", "flowback-21")
 AMAZON_DOMAIN = "amazon.in"
