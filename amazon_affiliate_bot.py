@@ -5,8 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import os
 BOT_TOKEN = os.environ.get("8537791968:AAEBZ84GuYQ4x0r28ASb jQkbVOB7hFJBHrQ")
 
-
-AFFILIATE_TAG = "flowback-21"
+AFFILIATE_TAG = os.environ.get("AFFILIATE_TAG", "flowback-21")
 AMAZON_DOMAIN = "amazon.in"
 
 DISCLOSURE = "\n\n⚠️ As an Amazon Associate, I earn from qualifying purchases."
